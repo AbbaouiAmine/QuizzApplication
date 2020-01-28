@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CameraActivity"
+    android:background="@color/colorWhite"
+    android:layout_margin="30dp">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/imageview_camera"
+    android:layout_weight="9"
+    ></ImageView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prendre une photo pour commencer"
+        android:id="@+id/buttonCamera"
+        android:background="@drawable/button_style"
+        android:textColor="@color/colorWhite"></Button>
+
+</LinearLayout>

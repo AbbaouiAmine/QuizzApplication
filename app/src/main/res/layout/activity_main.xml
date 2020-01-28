@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="25dp"
+    android:gravity="center_vertical"
+    android:background="@color/colorWhite">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/quiz"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_login_sign"
+        android:hint="Login"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_password_sign"
+        android:hint="Password"
+        android:gravity="center"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginTop="70dp"
+        android:id="@+id/btn_sign_in"
+        android:background="@drawable/button_style"
+        android:textColor="@color/colorWhite"
+        android:text="Sign in"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To register click here"
+        android:gravity="center"
+        android:id="@+id/tv_register"
+        android:layout_marginTop="15dp"></TextView>
+
+
+</LinearLayout>
